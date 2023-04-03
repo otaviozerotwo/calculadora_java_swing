@@ -64,8 +64,10 @@ public class Calculadora extends javax.swing.JFrame {
             .addGap(0, 52, Short.MAX_VALUE)
         );
 
+        campoVisor.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
         campoVisor.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
 
+        botao7.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         botao7.setText("7");
         botao7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -73,6 +75,7 @@ public class Calculadora extends javax.swing.JFrame {
             }
         });
 
+        botao8.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         botao8.setText("8");
         botao8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -80,6 +83,7 @@ public class Calculadora extends javax.swing.JFrame {
             }
         });
 
+        botao9.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         botao9.setText("9");
         botao9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -87,6 +91,7 @@ public class Calculadora extends javax.swing.JFrame {
             }
         });
 
+        botaoCE.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         botaoCE.setText("CE");
         botaoCE.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -94,6 +99,7 @@ public class Calculadora extends javax.swing.JFrame {
             }
         });
 
+        botao0.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         botao0.setText("0");
         botao0.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -101,6 +107,7 @@ public class Calculadora extends javax.swing.JFrame {
             }
         });
 
+        botao4.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         botao4.setText("4");
         botao4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -108,6 +115,7 @@ public class Calculadora extends javax.swing.JFrame {
             }
         });
 
+        botao5.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         botao5.setText("5");
         botao5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -115,6 +123,7 @@ public class Calculadora extends javax.swing.JFrame {
             }
         });
 
+        botao6.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         botao6.setText("6");
         botao6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -122,6 +131,7 @@ public class Calculadora extends javax.swing.JFrame {
             }
         });
 
+        botaoC.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         botaoC.setText("C");
         botaoC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -129,6 +139,7 @@ public class Calculadora extends javax.swing.JFrame {
             }
         });
 
+        botao1.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         botao1.setText("1");
         botao1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -136,6 +147,7 @@ public class Calculadora extends javax.swing.JFrame {
             }
         });
 
+        botao2.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         botao2.setText("2");
         botao2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -143,6 +155,7 @@ public class Calculadora extends javax.swing.JFrame {
             }
         });
 
+        botaoVirgula.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         botaoVirgula.setText(",");
         botaoVirgula.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -150,6 +163,7 @@ public class Calculadora extends javax.swing.JFrame {
             }
         });
 
+        botaoIgual.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         botaoIgual.setText("=");
         botaoIgual.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -157,6 +171,7 @@ public class Calculadora extends javax.swing.JFrame {
             }
         });
 
+        botao3.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         botao3.setText("3");
         botao3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -164,6 +179,7 @@ public class Calculadora extends javax.swing.JFrame {
             }
         });
 
+        botaoDivisao.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         botaoDivisao.setText("/");
         botaoDivisao.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -171,6 +187,7 @@ public class Calculadora extends javax.swing.JFrame {
             }
         });
 
+        botaoMultiplicacao.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         botaoMultiplicacao.setText("x");
         botaoMultiplicacao.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -178,6 +195,7 @@ public class Calculadora extends javax.swing.JFrame {
             }
         });
 
+        botaoSoma.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         botaoSoma.setText("+");
         botaoSoma.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -185,6 +203,7 @@ public class Calculadora extends javax.swing.JFrame {
             }
         });
 
+        botaoSubtracao.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         botaoSubtracao.setText("-");
         botaoSubtracao.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
